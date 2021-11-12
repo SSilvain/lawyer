@@ -1,0 +1,17 @@
+{
+	"configurations": [
+		{
+			"name": "Launch Chrome",
+			"request": "launch",
+			"type": "pwa-chrome",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"name": "Launch Microsoft Edge and open the Edge DevTools",
+			"request": "launch",
+			"type": "vscode-edge-devtools.debug",
+			"url": "file:///D:/0_WEB/WORK/Urist%20scss%20new/SITE/index.html" // Provide your project's url to finish configuring
+		}
+	]
+}

@@ -1,0 +1,30 @@
+div.menu
+	.menu__wrapper
+		.menu__container._container
+			nav.menu__body
+				ul.menu__list(data-spollers='768,max')
+					li.menu__item
+						a.menu__link(href='#online') О компании
+					li.menu__item
+						a.menu__link(href='#support') Услуги
+					li.menu__item
+						a.menu__link(href='#benefits') Sirius
+					li.menu__item.munu__item--with-sub-list
+						a.menu__link(href='#tarifs') Тарифы
+						button(data-spoller type="button").menu__arrow
+							+svg-icon.svg-icon(svg-icon-name="arrow-down").menu__arrow_ico
+						ul.menu__sub-list
+							li.menu__sub-item
+								a.menu__sub-link(href="#start") Легкий старт
+							li.menu__sub-item
+								a.menu__sub-link(href="#standard") Стандарт
+							li.menu__sub-item
+								a.menu__sub-link(href="#consultant") Бизнес-консультант
+							li.menu__sub-item
+								a.menu__sub-link(href="#premium") Бизнес-премиум
+							li.menu__sub-item
+								a.menu__sub-link(href="#international") Международный бизнес
+					li.menu__item
+						a.menu__link(href='#begin') FAQ
+					li.menu__item
+						a.menu__link(href='#leader') Контакты

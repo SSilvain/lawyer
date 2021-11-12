@@ -1,0 +1,257 @@
+.online {
+	margin-bottom: 20px;
+
+	@media (max-width: $md2+px) {
+		margin-bottom: 40px;
+	}
+
+	@media (max-width: $md3+px) {
+		margin-bottom: 10px;
+	}
+}
+
+.online__inner {
+	display: flex;
+	justify-content: space-between;
+	background: url(../img/online-bg.svg) no-repeat;
+	background-position: 528px 8px;
+	width: 1057px;
+	margin: 0 auto;
+	padding-top: 80px;
+
+	@media (max-width: $md2+px) {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		width: auto;
+	}
+}
+
+.onlline__text-block {
+	width: 410px;
+
+	@media (max-width: $md2+px) {
+		width: auto;
+	}
+}
+
+.online__logo {
+	margin-bottom: 28px;
+
+	@media (max-width: $md3+px) {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
+.online__caption {
+	margin-bottom: 19px;
+
+	@media (max-width: $md3+px) {
+		margin-bottom: 10px;
+	}
+}
+
+.online__box {
+	position: relative;
+	top: -77px;
+	left: -66px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+
+	@media (max-width: $md2+px) {
+		align-self: center;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%);
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	@media (max-width: $md3+px) {
+		padding: 0;
+		left: 0;
+		transform: none;
+		width: 320px;
+		margin: 0 auto;
+	}
+}
+
+.online__card-body {
+	width: 230px;
+	height: 230px;
+	padding: 10px;
+	overflow: hidden;
+
+	@media (max-width: $md3+px) {
+		width: 120px;
+		height: 137px;
+		padding: 0;
+		margin-bottom: 10px;
+		margin-right: 10px;
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+	}
+}
+
+.online__card-body--1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.online__card-body--2 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.online__card-body--3 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.online__card-body--4 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.card {
+	background: linear-gradient(236.29deg, #ffffff 29.99%, #f4f9ff 79.17%);
+	box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+	border-radius: 10px;
+}
+
+.card__subtitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+
+	// line-height: 150%;
+	@media (max-width: $md3+px) {
+		font-size: 10px;
+		line-height: 14px;
+	}
+}
+
+.card--1 {
+	width: 217px;
+	height: 156px;
+	padding: 34px 29px 32px 32px;
+
+	@media (max-width: $md3+px) {
+		width: 140px;
+		height: 94px;
+		padding: 16px;
+
+	}
+
+	.card__icon {
+		background: url(../img/online-icon-1.svg) no-repeat;
+		background-position: 50% 100%;
+		width: 151px;
+		height: 35px;
+		margin-bottom: 17px;
+
+		@media (max-width: $md3+px) {
+			height: 25px;
+			width: 80px;
+			background-size: 100%;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.card--2 {
+	width: 179px;
+	height: 135px;
+	padding: 30px 24px 24px 24px;
+
+	@media (max-width: $md3+px) {
+		width: 124px;
+		height: 91px;
+		padding: 16px;
+
+	}
+
+	.card__icon {
+		background: url(../img/online-icon-2.svg) no-repeat;
+		background-position: 0% 100%;
+		width: 70px;
+		height: 26px;
+		margin-bottom: 15px;
+
+		@media (max-width: $md3+px) {
+			height: 25px;
+			width: 80px;
+			background-size: 86%;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.card--3 {
+	width: 179px;
+	height: 135px;
+	padding: 30px 24px 24px 25px;
+
+	@media (max-width: $md3+px) {
+		width: 124px;
+		height: 91px;
+		padding: 16px;
+
+	}
+
+	.card__icon {
+		background: url(../img/online-icon-3.svg) no-repeat;
+		background-position: 0% 100%;
+		width: 69px;
+		height: 26px;
+		margin-bottom: 15px;
+
+		@media (max-width: $md3+px) {
+			height: 25px;
+			width: 80px;
+			background-size: 76%;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.card--4 {
+	width: 192px;
+	height: 171px;
+	padding: 46px 32px 32px 32px;
+
+	@media (max-width: $md3+px) {
+		width: 132px;
+		height: 110px;
+		padding: 16px;
+
+	}
+
+	.card__icon {
+		background: url(../img/online-icon-4.svg) no-repeat;
+		background-position: 0% 100%;
+		width: 79px;
+		height: 12px;
+		margin-bottom: 20px;
+
+		@media (max-width: $md3+px) {
+			height: 25px;
+			width: 80px;
+			background-size: 100%;
+			margin-bottom: 10px;
+		}
+	}
+}

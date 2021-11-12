@@ -1,0 +1,144 @@
+.leader {
+	margin-bottom: 100px;
+	@media (max-width: $md3+px) {
+		margin-bottom: 40px;
+	}
+}
+
+.leader__box {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 70px;
+
+	@media (max-width: $md1+px) {
+		padding: 0;
+	}
+	@media (max-width: $md3+px) {
+		display: block;
+	}
+}
+
+.leader__box-photo {
+	position: relative;
+	width: 419px;
+	margin-right: 97px;
+
+	@media (max-width: $md1+px) {
+		width: 319px;
+		margin-right: 40px;
+	}
+	@media (max-width: $md3+px) {
+		width: auto;
+		max-width: 319px;
+		margin: 0 auto 40px;
+	}
+}
+
+.leader__img {
+	img {
+		border-radius: 20px;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.leader__quote {
+	position: absolute;
+	width: 360px;
+	right: -129px;
+	bottom: -24px;
+	padding: 45px 30px 30px 30px;
+	background: linear-gradient(331.41deg, #f0ebff -4.05%, #ffffff 34.42%);
+	box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+	border-radius: 11.9362px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #303030;
+
+	@media (max-width: $md2+px) {
+		padding: 30px 20px 20px 20px;
+		right: 10px;
+		bottom: -50px;
+		width: 250px;
+	}
+
+	&:before {
+		display: block;
+		content: "";
+		position: absolute;
+		width: 11px;
+		height: 13px;
+		top: 26px;
+		left: 34px;
+		background: url(../img/leader-quote-icon.svg) no-repeat;
+
+		@media (max-width: $md2+px) {
+			top: 15px;
+			left: 20px;
+		}
+	}
+}
+
+.leader__content {
+	padding-top: 55px;
+	width: 370px;
+	@media (max-width: $md3+px) {
+		width: auto;
+	}
+}
+
+.leader__meta-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #404040;
+	@media (max-width: $md3+px) {
+		text-align: center;
+	}
+}
+
+.leader__caption {
+	margin-bottom: 10px;
+}
+
+.leader__subtitle {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #404040;
+	margin-bottom: 32px;
+
+	@media (max-width: $md3+px) {
+		text-align: center;
+	}
+}
+
+.leader__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #404040;
+	margin-bottom: 0px;
+}
+
+.leader__list {
+	padding-left: 20px;
+	margin-bottom: 16px;
+}
+
+.leader__li {
+	list-style-type: disc;
+	margin-bottom: 0px;
+	line-height: 20px;
+}
+
+.leader__button {
+	margin-top: 33px;
+	background-position: -380px 0px,
+	0 0;
+}

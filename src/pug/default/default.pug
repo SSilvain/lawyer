@@ -1,0 +1,32 @@
+include ../svg-icon/svg-icon
+doctype
+html(lang='en')
+	head
+		block head
+			meta(charset='utf-8')
+			meta(name="viewport" content="width=device-width,initial-scale=1")
+			link(rel='stylesheet' href='css/style.min.css')
+	body
+		block content
+			.wrapper
+				//header
+				include ../partials/1_topline
+				include ../partials/2_menu
+				include ../partials/3_header
+				include ../partials/4_online
+				include ../partials/5_support
+				include ../partials/6_benefits
+				include ../partials/7_tarifs
+				include ../partials/8_partner
+				include ../partials/9_begin
+				include ../partials/10_forecast
+				include ../partials/11_leader
+				include ../partials/12_footer
+				include ../partials/13_bottom-line
+				//- block page
+				//- 	main.page
+				//- include ../partials/2_top-block
+		block popup
+			include ../partials/popup.pug
+				script(src='js/libs_new/smooth-scroll.polyfills.min.js')
+				script(src='js/app.min.js')

@@ -1,0 +1,71 @@
+.support {
+	margin-bottom: 139px;
+
+	@media (max-width: $md2+px) {
+		margin-bottom: 40px;
+	}
+}
+
+.support__caption {
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	@include adaptiv-value("font-size", 16, 14, 1);
+	@include adaptiv-value("line-height", 24, 23, 1);
+}
+
+.support__box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.support__card {
+	margin: 0 8px;
+	width: 343px;
+	left: 189px;
+	top: 1427px;
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 32px;
+
+	@media (max-width: $md1+px) {
+		margin-bottom: 15px;
+	}
+}
+
+.support__icon {
+	height: 130px;
+	width: 100%;
+	background: url(../img/support-icon-1.svg) no-repeat;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+.support__icon--1 {
+	background: url(../img/support-icon-1.svg) no-repeat;
+	background-position: center;
+}
+
+.support__icon--2 {
+	background: url(../img/support-icon-2.svg) no-repeat;
+	background-position: center;
+}
+
+.support__icon--3 {
+	background: url(../img/support-icon-3.svg) no-repeat;
+	background-position: center;
+}
+
+.support__subtitle {
+	font-style: normal;
+	font-weight: bold;
+	margin-bottom: 9px;
+	@include adaptiv-value("font-size", 16, 14, 1);
+	@include adaptiv-value("line-height", 24, 23, 1);
+}
+
+.support__text {
+	@include adaptiv-value("line-height", 21, 18, 1);
+}

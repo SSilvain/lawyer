@@ -1,0 +1,246 @@
+.tarifs {
+	margin-bottom: 112px;
+
+	@media (max-width: $md3+px) {
+		margin-bottom: 20px;
+	}
+}
+
+.tarifs__caption {
+	text-align: center;
+	margin-bottom: 9px;
+}
+
+.tarifs__subtitle {
+	margin-bottom: 27px;
+	text-align: center;
+}
+
+.tarifs__buttons-outer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.tarifs__button {
+	margin-right: 57px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	@media (max-width: $md3+px) {
+		margin: 0 20px;
+	}
+}
+
+.tarifs__button--disactive {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: $darkBlue;
+	background: none;
+	border-radius: 0;
+	border-bottom: 1px dotted;
+	transition: all 0.3s;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: none;
+
+	@media (any-hover: hover) {
+		&:hover {
+			border: none;
+		}
+	}
+
+	&:active {
+		background: none;
+		box-shadow: none;
+	}
+}
+
+.tarifs__box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.tarifs-card {
+	margin-top: 0;
+	margin-bottom: 33px;
+	margin-left: 0px;
+	margin-right: 33px;
+	padding-top: 46px;
+	padding-bottom: 36px;
+	padding-left: 49px;
+	padding-right: 49px;
+	width: 513px;
+	background: #ffffff;
+	border-radius: 20px;
+
+	@media (max-width: $md1+px) {
+		width: 467px;
+	}
+
+	@media (max-width: $md2+px) {
+		width: 358px;
+		padding-top: 36px;
+		padding-bottom: 26px;
+		padding-left: 39px;
+		padding-right: 39px;
+	}
+
+	@media (max-width: $md3+px) {
+		margin-right: 0;
+	}
+
+	&:nth-child(odd) {
+		margin-right: 0;
+	}
+}
+
+.tarifs-card__title {
+	font-style: normal;
+	font-weight: bold;
+	@include adaptiv-value("font-size", 16, 12, 1);
+	line-height: 30px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #2741d0;
+	margin-bottom: 13px;
+}
+
+.tarifs-card__subtitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	color: #737373;
+	margin-bottom: 12px;
+}
+
+.tarifs-card__price {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 12px;
+}
+
+.tarifs-card__availability {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 11px;
+}
+
+.tarifs-card__ul {
+	margin-bottom: 16px;
+}
+
+.list__item.tarifs-card__li {
+	padding-left: 18px;
+	margin-bottom: 16px;
+	line-height: 24px;
+	@include adaptiv-value("font-size", 16, 12, 1);
+	@include adaptiv-value("line-height", 24, 18, 1);
+}
+
+.tarifs-card__more {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	color: #2741d0;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 16px;
+	padding-right: 34px;
+	transition: all 0.3s ease;
+
+	@media (max-width: $md2+px) {
+		font-size: 15px;
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:after {
+		display: inline-block;
+		content: "";
+		position: absolute;
+		top: 12px;
+		right: 0;
+		background: url(../img/arrow-right.svg) no-repeat;
+		width: 14.8px;
+		height: 16px;
+	}
+}
+
+.tarifs-card__button{
+	background-position: -330px 0px,
+	0 0;
+}
+.tarifs-card--free {
+	width: 1060px;
+	text-align: center;
+
+	@media (max-width: $md3+px) {
+		width: 358px;
+	}
+
+	.tarifs-card__title {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+
+	.tarifs-card__subtitle {
+		font-size: 32px;
+		line-height: 44px;
+		margin-bottom: 8px;
+	}
+
+	.tarifs-card__price {
+		font-weight: normal;
+		margin-bottom: 16px;
+	}
+
+	.tarifs-card__availability {
+		font-weight: 500;
+		margin-bottom: 21px;
+	}
+
+	.tarifs-card__ul {
+		text-align: left;
+		width: 664px;
+		margin: 0 auto;
+		columns: 2;
+
+		@media (max-width: $md3+px) {
+			columns: 1;
+			width: auto;
+		}
+	}
+
+	.tarifs-card__li {
+		display: inline-block;
+
+		@media (max-width: $md3+px) {
+			display: block;
+		}
+	}
+
+	.tarifs-card__button {
+		margin: 0 auto;
+	}
+}

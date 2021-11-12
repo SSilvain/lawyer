@@ -1,0 +1,138 @@
+.partner {
+	background: url(../img/partner-bg.webp) no-repeat;
+	background-position: center 0;
+	margin-bottom: 141px;
+
+	@media (max-width: $md2+px) {
+		margin-bottom: 80px;
+	}
+}
+
+.partner__top {
+	margin-bottom: 76px;
+	padding-top: 86px;
+	padding-left: 118px;
+	height: 398px;
+
+	@media (max-width: $md2+px) {
+		// height: auto;
+		margin-bottom: 40px;
+		padding-left: 0;
+		text-align: center;
+	}
+}
+
+.partner__caption {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 44px;
+	color: #ffffff;
+	margin-bottom: 14px;
+}
+
+.partner__subtitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #e9e9e9;
+	width: 306px;
+
+	@media (max-width: $md2+px) {
+		width: auto;
+	}
+}
+
+.partner__box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.partner__card {
+	width: 1062px;
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 31px 40px 38px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 18px;
+	@media (max-width: $md3+px) {
+		width: 100%;
+	}
+}
+
+.partner__img {
+	width: 321px;
+	height: 140px;
+}
+
+.partner__img--1 {
+	background: url(../img/partner-icon-1.svg) no-repeat;
+	background-position: 0 0;
+}
+
+.partner__img--2 {
+	background: url(../img/partner-icon-2.svg) no-repeat;
+	background-position: 0 0;
+}
+
+.partner__img--3 {
+	background: url(../img/partner-icon-3.svg) no-repeat;
+	background-position: 0 0;
+}
+
+.partner__img--4 {
+	background: url(../img/partner-icon-4.svg) no-repeat;
+	background-position: 0 0;
+}
+
+.partner__content {
+	padding-top: 16px;
+	width: 560px;
+}
+
+.partner__title {
+	font-style: normal;
+	font-weight: 500;
+	color: #404040;
+	margin-bottom: 7px;
+	@include adaptiv-value("font-size", 16, 14, 1);
+	@include adaptiv-value("line-height", 36, 28, 1);
+}
+
+.partner__text {
+	font-style: normal;
+	font-weight: normal;
+	color: #404040;
+	margin-bottom: 10px;
+	@include adaptiv-value("font-size", 14, 12, 1);
+	@include adaptiv-value("line-height", 20, 18, 1);
+}
+
+.partner__text--bold {
+	font-weight: 500;
+}
+
+.partner__list {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #404040;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+.partner__li {
+	margin-bottom: 0px;
+	list-style-type: disc;
+}
+
+.partner__button {
+	margin: 0 auto;
+	background-position: -330px 0px,
+	0 0;
+}
