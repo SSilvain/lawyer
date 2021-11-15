@@ -1,6 +1,6 @@
 .leader {
 	margin-bottom: 100px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin-bottom: 40px;
 	}
 }
@@ -10,10 +10,10 @@
 	flex-wrap: wrap;
 	padding: 0 70px;
 
-	@media (max-width: $md1+px) {
+	@media (max-width: ($md1+px)) {
 		padding: 0;
 	}
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		display: block;
 	}
 }
@@ -23,11 +23,11 @@
 	width: 419px;
 	margin-right: 97px;
 
-	@media (max-width: $md1+px) {
+	@media (max-width: ($md1+px)) {
 		width: 319px;
 		margin-right: 40px;
 	}
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: auto;
 		max-width: 319px;
 		margin: 0 auto 40px;
@@ -57,7 +57,7 @@
 	line-height: 16px;
 	color: #303030;
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		padding: 30px 20px 20px 20px;
 		right: 10px;
 		bottom: -50px;
@@ -74,7 +74,7 @@
 		left: 34px;
 		background: url(../img/leader-quote-icon.svg) no-repeat;
 
-		@media (max-width: $md2+px) {
+		@media (max-width: ($md2+px)) {
 			top: 15px;
 			left: 20px;
 		}
@@ -84,7 +84,7 @@
 .leader__content {
 	padding-top: 55px;
 	width: 370px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: auto;
 	}
 }
@@ -95,7 +95,7 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #404040;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		text-align: center;
 	}
 }
@@ -112,7 +112,7 @@
 	color: #404040;
 	margin-bottom: 32px;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		text-align: center;
 	}
 }

@@ -3,12 +3,12 @@
 	padding: 80px 50px 80px 50px;
 	margin-bottom: 144px;
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		padding-top: 40px;
 		padding-bottom: 60px;
 		margin-bottom: 44px;
 	}
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		padding: 40px 0;
 	}
 }
@@ -28,14 +28,14 @@
 	width: 400px;
 	margin-right: 29px;
 
-	@media (max-width: $md1+px) {
+	@media (max-width: ($md1+px)) {
 		width: 100%;
 		text-align: center;
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		font-size: 28px;
 	}
 }
@@ -52,7 +52,7 @@
 	flex-wrap: wrap;
 	margin-right: 20px;
 	width: 200px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin-bottom: 30px;
 		margin-right: 0;
 	}
@@ -60,7 +60,7 @@
 
 .forecast__card--1 {
 	width: 120px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: auto;
 	}
 }
@@ -68,21 +68,21 @@
 .forecast__card--2 {
 	width: 202px;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: auto;
 	}
 }
 
 .forecast__card--3 {
 	width: 168px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: auto;
 	}
 }
 
 .forecast__card--4 {
 	width: 170px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: auto;
 	}
 }

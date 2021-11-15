@@ -1,7 +1,7 @@
 .support {
 	margin-bottom: 139px;
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		margin-bottom: 40px;
 	}
 }
@@ -30,7 +30,7 @@
 	border-radius: 10px;
 	padding: 32px;
 
-	@media (max-width: $md1+px) {
+	@media (max-width: ($md1+px)) {
 		margin-bottom: 15px;
 	}
 }

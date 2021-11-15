@@ -1,7 +1,7 @@
 .begin {
 	margin-bottom: 129px;
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		margin-bottom: 50px;
 	}
 }
@@ -10,7 +10,7 @@
 	background: url(../img/begin-bg-line.svg) no-repeat;
 	background-position: center 164px;
 
-	@media (max-width: $md1+px) {
+	@media (max-width: ($md1+px)) {
 		background: none;
 	}
 }
@@ -25,21 +25,21 @@
 	flex-wrap: wrap;
 	justify-content: center;
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		align-content: left;
 	}
 }
 
 .begin__col {
 	margin: 0 16px 0 0;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin: 0 0 16px 0;
 	}
 }
 
 .begin__row {
 	margin-bottom: 16px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		&:last-child{
 			margin-bottom: 0;
 		}
@@ -59,7 +59,7 @@
 .begin__card--big {
 	width: 312px;
 	padding: 72px 40px 72px 40px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 296px;
 	}
 }

@@ -39,7 +39,7 @@
 		}
 	}
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin: 0 auto;
 	}
 }
@@ -52,7 +52,7 @@
 	@include adaptiv-value("font-size", 32, 24, 1);
 	@include adaptiv-value("line-height", 44, 30, 1);
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		text-align: center;
 	}
 }
@@ -65,7 +65,7 @@
 	@include adaptiv-value("font-size", 14, 12, 1);
 	@include adaptiv-value("line-height", 23, 18, 1);
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		text-align: center;
 	}
 }

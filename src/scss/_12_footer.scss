@@ -15,13 +15,13 @@
 	flex-wrap: wrap;
 	align-items: center;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		justify-content: center;
 	}
 }
 .footer__right {
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
@@ -32,7 +32,7 @@
 
 
 .footer__logo {
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin-bottom: 30px;
 	}
 }
@@ -41,7 +41,7 @@
 	margin-left: 50px;
 	color: #303030;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin-bottom: 30px;
 	}
 }

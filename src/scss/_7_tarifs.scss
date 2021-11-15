@@ -1,7 +1,7 @@
 .tarifs {
 	margin-bottom: 112px;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin-bottom: 20px;
 	}
 }
@@ -28,7 +28,7 @@
 	padding-top: 16px;
 	padding-bottom: 16px;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin: 0 20px;
 	}
 }
@@ -81,11 +81,11 @@
 	background: #ffffff;
 	border-radius: 20px;
 
-	@media (max-width: $md1+px) {
+	@media (max-width: ($md1+px)) {
 		width: 467px;
 	}
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		width: 358px;
 		padding-top: 36px;
 		padding-bottom: 26px;
@@ -93,7 +93,7 @@
 		padding-right: 39px;
 	}
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		margin-right: 0;
 	}
 
@@ -162,7 +162,7 @@
 	padding-right: 34px;
 	transition: all 0.3s ease;
 
-	@media (max-width: $md2+px) {
+	@media (max-width: ($md2+px)) {
 		font-size: 15px;
 	}
 
@@ -190,7 +190,7 @@
 	width: 1060px;
 	text-align: center;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 358px;
 	}
 
@@ -226,7 +226,7 @@
 		margin: 0 auto;
 		columns: 2;
 
-		@media (max-width: $md3+px) {
+		@media (max-width: ($md3+px)) {
 			columns: 1;
 			width: auto;
 		}
@@ -235,7 +235,7 @@
 	.tarifs-card__li {
 		display: inline-block;
 
-		@media (max-width: $md3+px) {
+		@media (max-width: ($md3+px)) {
 			display: block;
 		}
 	}

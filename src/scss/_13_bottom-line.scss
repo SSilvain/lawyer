@@ -1,7 +1,7 @@
 .bottom-line {
 	padding: 20px 0;
 	background: #e8edf3;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		text-align: center;
 	}
 }
@@ -14,7 +14,7 @@
 	color: #7a7a7a;
 	display: flex;
 	justify-content: space-between;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		flex-wrap: wrap;
 		text-align: center;
 	}
@@ -30,20 +30,20 @@
 
 .bottom-line__left {
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 100%;
 		margin-bottom: 20px;
 	}
 }
 .bottom-line__copy{
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 100%;
 	}
 }
 .bottom-line__right {
 	display: flex;
 
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		flex-wrap: wrap;
 		width: 100%;
 	}
@@ -51,13 +51,13 @@
 
 .bottom-line__politic {
 	margin-right: 20px;
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 100%;
 		margin-right: 0;
 	}
 }
 .bottom-line__terms {
-	@media (max-width: $md3+px) {
+	@media (max-width: ($md3+px)) {
 		width: 100%;
 	}
 }
